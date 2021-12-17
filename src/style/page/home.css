@@ -1,0 +1,233 @@
+.sec2 {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-top: 1px solid gray;
+}
+
+.sec2 .text_bold {
+  font-weight: bold;
+}
+.sec3 {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid gray;
+  border-top: 1px solid gray;
+}
+.sec3__hr {
+  width: 40%;
+  margin: auto;
+}
+.sec3__img {
+  position: relative;
+  width: 100%;
+  height: 277px;
+}
+.sec3__img img {
+  width: 100%;
+  height: 100%;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+  opacity: 1;
+  display: block;
+}
+.sec3 .overlay {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.sec3__img:hover img {
+  opacity: 0.3;
+}
+
+.sec3__img:hover .overlay {
+  opacity: 1;
+}
+
+.overlay .text {
+  background-color: rgba(255, 0, 0, 0.7);
+  color: white;
+  font-size: 16px;
+  padding: 30px;
+  border-radius: 63px;
+}
+.sec4 {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.sec4__small__img {
+  height: 70px;
+  width: 70px;
+  margin-right: 3px;
+  padding: 5px;
+  border: 1px solid rgba(128, 128, 128, 0.411);
+}
+
+.sec4__big__image {
+  height: 370px;
+  width: 508px;
+  padding: 5px;
+  border: 1px solid rgba(128, 128, 128, 0.411);
+}
+@media (max-width: 768px) {
+  .sec4__small__img {
+    height: 50px;
+    width: 50px;
+  }
+  .sec4__big__image {
+    height: 300px;
+    width: 380px;
+  }
+}
+.sec4 button {
+  background-color: #f8f9fa !important;
+  border: 1px solid gray;
+  color: black;
+}
+.sec4 button:hover {
+  background-color: white !important;
+  border: 1px solid gray;
+  color: black;
+}
+
+.sec5 {
+  background-color: #f8f9fa;
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+}
+.sec5 button {
+  background-color: #f8f9fa !important;
+  border: 1px solid gray;
+  color: black;
+}
+.sec5 button:hover {
+  background-color: white !important;
+  border: 1px solid gray;
+  color: black;
+}
+.sec5__right {
+  margin-right: 20px;
+}
+.sec5 .border__right {
+  width: 50%;
+  border-right: 1px dotted gray;
+  height: 60px;
+}
+
+.sec5 .icon {
+  background-color: lightgray;
+  border-radius: 100px;
+  padding: 10px;
+}
+
+.sec5 .icon svg {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .sec5__text {
+    font-size: 12px;
+  }
+  .sec5__text h4 {
+    font-size: 15px;
+  }
+}
+.sec6 {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.sec6__image {
+  width: 480px;
+  height: 380px;
+}
+@media (max-width: 768px) {
+  .sec6__image {
+    width: 300px;
+    height: 250px;
+  }
+}
+
+.sec6 button {
+  background-color: #f8f9fa !important;
+  border: 1px solid gray;
+  color: black;
+  width: fit-content;
+}
+.sec6 button:hover {
+  background-color: white !important;
+  border: 1px solid gray;
+  color: black;
+}
+.sec7 {
+  background-color: #f8f9fa;
+}
+
+.sec7__img {
+  width: 80px;
+  height: 80px;
+}
+.sec7__img img {
+  border-radius: 100px;
+}
+
+.sec7__borderTopLeft {
+  border-left: 2px dotted lightgray;
+  border-top: 2px dotted lightgray;
+}
+.sec7__borderLeft {
+  border-left: 2px dotted lightgray;
+}
+.sec7__borderTop {
+  border-top: 2px dotted lightgray;
+}
+@media (max-width: 768px) {
+  .sec7__borderTopLeft {
+    border-left: none;
+    border-top: none;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid black;
+    flex-direction: column;
+  }
+  .sec7__borderLeft {
+    border-left: none;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid black;
+    flex-direction: column;
+  }
+  .sec7__borderTop {
+    border-top: none;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid black;
+    flex-direction: column;
+  }
+
+  .sec7__borderTopLeftMo {
+    border-top: none;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid black;
+    flex-direction: column;
+  }
+}
+.sec8 .circleTop {
+  position: absolute;
+  top: -35px;
+  border-radius: 100px;
+  padding: 10px;
+  left: 40%;
+  color: white;
+}
+@media (max-width: 998px) {
+  .sec8 .circleTop {
+    left: 47%;
+  }
+}
+@media (max-width: 768px) {
+  .sec8 .circleTop {
+    left: 43%;
+  }
+}

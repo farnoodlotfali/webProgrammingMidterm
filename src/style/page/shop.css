@@ -1,0 +1,48 @@
+.shop {
+  min-height: 100vh;
+  margin-top: 6rem;
+}
+
+.shop input {
+  background-color: #f8f9fa;
+  border: 1px solid grey;
+}
+
+.shop__title {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid gray;
+  padding: 0 160px;
+}
+.shop__items .border_right {
+  border-right: 2px solid lightgray;
+}
+@media (max-width: 998px) {
+  .shop__items .border_right {
+    border-right: none;
+  }
+}
+.shop__items button {
+  background-color: #f8f9fa !important;
+  border: 1px solid gray;
+  color: black;
+}
+.shop__items button:hover {
+  background-color: white !important;
+  border: 1px solid gray;
+  color: black;
+}
+
+.shop__items__image {
+  width: 225px;
+  height: 225px;
+}
+.shopItem {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.login__btn button {
+  background-color: rgb(158, 34, 34) !important;
+  color: wheat;
+}

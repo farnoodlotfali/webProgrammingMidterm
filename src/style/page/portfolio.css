@@ -1,0 +1,26 @@
+.portfolio {
+  margin-top: 6rem;
+}
+.portfolio__title {
+  background-color: #f8f9fa;
+  border-bottom: 1px solid gray;
+  padding: 0 160px;
+}
+
+.portfolio__category {
+  cursor: pointer;
+  font-size: 15px;
+  margin-right: 4px;
+}
+
+.portfolio__category:hover {
+  color: rgba(255, 0, 0, 0.459);
+}
+.portfolio__info__btn button {
+  background-color: rgba(255, 0, 0, 0.712) !important;
+  border: none;
+}
+
+.portfolio__info {
+  background-color: #f8f9fa;
+}

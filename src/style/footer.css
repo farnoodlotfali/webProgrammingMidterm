@@ -1,0 +1,27 @@
+.footer {
+  color: #919191;
+}
+
+.footer__top {
+  background-color: #222222;
+}
+
+.footer__img {
+  width: 25px;
+  height: 25px;
+}
+
+.footer__bottom {
+  background-color: #333333;
+}
+
+.footer__bottom ul {
+  list-style: none;
+}
+.footer__bottom ul li {
+  margin-right: 10px;
+}
+.footer__bottom ul li a {
+  color: white;
+  text-decoration: none;
+}
